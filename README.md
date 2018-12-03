@@ -17,6 +17,7 @@ We were given 4 methods in ruby and asked to time how long each method took to c
 I chose to work in javascript and althought there are ways to perform a shuffle, there is no .shuffle method already setup like there is in ruby. I used the following function to perform a shuffle on the arrays before the timer was set:
 
    ******************** Shuffle method ********************
+   
 function shuffle(array) {
 
   for (var i = array.length-1; i >=0; i--) {
