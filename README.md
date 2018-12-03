@@ -62,4 +62,4 @@ Once I was happy each of the methods and timer was working I ran each method on 
 
 The final table of averages:
 
-![Total table map]('https://github.com/hurc87/makers-week10/issues/1#issue-386901843')
+![Total table map](https://user-images.githubusercontent.com/37640287/49387674-5b6ed280-f71a-11e8-806f-16e18138ea9b.png)
