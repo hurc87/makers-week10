@@ -46,15 +46,23 @@ I set up a quick sample of an array with 10 numbers in and timed each method 5 t
 // ******************** Shuffle method **************************
 The graph for the shuffle method:
 
+![Shuffle method Chart](https://user-images.githubusercontent.com/37640287/49387935-e8199080-f71a-11e8-8daa-02874a7d248a.png)
+
+
 // ******************** Last method *****************************
 The graph for the last method:
+
+![Last method Chart](https://user-images.githubusercontent.com/37640287/49388023-0aaba980-f71b-11e8-9845-363251038973.png)
 
 // ******************** Reverse method **************************
 The graph for the reverse method:
 
+![Reverse method Chart](https://user-images.githubusercontent.com/37640287/49387989-fbc4f700-f71a-11e8-9dd8-367b5824298f.png)
+
 // ******************** Sort method *****************************
 The graph for the sort method:
 
+![Sort method Chart](https://user-images.githubusercontent.com/37640287/49387889-d3d59380-f71a-11e8-97b5-2dced969188d.png)
 
 
 // ******************** Comparing the results ********************
