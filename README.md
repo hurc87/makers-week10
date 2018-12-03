@@ -62,4 +62,4 @@ Once I was happy each of the methods and timer was working I ran each method on 
 
 The final table of averages:
 
-![Total table map]('/images/totalTable.png')
+![Total table map]('../images/totalTable.png')
