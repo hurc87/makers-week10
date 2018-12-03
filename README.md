@@ -43,8 +43,23 @@ I set up a quick sample of an array with 10 numbers in and timed each method 5 t
 
 
 
+// ******************** Shuffle method **************************
+The graph for the shuffle method:
+
+// ******************** Last method *****************************
+The graph for the last method:
+
+// ******************** Reverse method **************************
+The graph for the reverse method:
+
+// ******************** Sort method *****************************
+The graph for the sort method:
+
+
+
+// ******************** Comparing the results ********************
 Once I was happy each of the methods and timer was working I ran each method on different sized arrays, running each one 10 times, then taking the total to put on the final graph.
 
 The final table of averages:
 
-![Total table map]('./images/totalTable.png')
+![Total table map]('/images/totalTable.png')
