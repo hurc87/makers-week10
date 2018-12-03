@@ -14,7 +14,7 @@ We were given 4 methods in ruby and asked to time how long each method took to c
 - shuffle
 - sort (if you are generating an array from a range, don't forget to shuffle it first to not bias the results)
 
-I chose to work in javascript and althought there are ways to perform a shuffle, there is no .shuffle method already setup like there is in ruby. I used the following function to perform a shuffle on the arrays before the timer was set: 
+I chose to work in javascript and althought there are ways to perform a shuffle, there is no .shuffle method already setup like there is in ruby. I used the following function to perform a shuffle on the arrays before the timer was set:
 
 // ******************** Shuffle method ********************
 function shuffle(array) {
@@ -39,12 +39,12 @@ This method replaced the original array with the newly shuffled version.
 
 
 
-I set up a quick sample of an array with 10 numbers in and timed each method 5 times, the results are below: 
+I set up a quick sample of an array with 10 numbers in and timed each method 5 times, the results are below:
 
 
 
-Once I was happy each of the methods and timer was working I ran each method on different sized arrays, running each one 10 times, then taking the total to put on the final graph. 
+Once I was happy each of the methods and timer was working I ran each method on different sized arrays, running each one 10 times, then taking the total to put on the final graph.
 
 The final table of averages:
-		
 
+![Total table map]('./images/totalTable.png')
