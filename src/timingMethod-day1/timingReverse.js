@@ -1,4 +1,4 @@
-// ******************** To fill the array before a test ********************
+// To fill the array before a test
 
 var arr = [];
 
@@ -6,7 +6,7 @@ for (var i = 1; i <= 500000; i++) {
    arr.push(i);
 };
 
-// ******************** Shuffle method ********************
+// Shuffle method
 function shuffle(array) {
 
   for (var i = array.length-1; i >=0; i--) {
@@ -23,7 +23,7 @@ function shuffle(array) {
 
 shuffle(arr);
 
-// ******************** Timing the method ***************
+// Timing the method 
 // Times how long the method takes to run
 function someFunction() {
   arr.reverse()

@@ -1,4 +1,4 @@
-// ******************** Shuffle method ********************
+// Shuffle method
 // Shuffle the array, but replaces original array with the newly shuffled one
 function shuffle(array) {
 
@@ -20,7 +20,7 @@ shuffle(arr);
 // Result of the shuffled array
 console.log("The shuffled array " + arr);
 
-// ******************** Last method ********************
+// Last method
 // Selects last item in the array
 function last(newArray) {
 
@@ -33,19 +33,19 @@ function last(newArray) {
 console.log("The last number of the array is array " + last(arr));
 
 
-// ******************** Reverse method ******************
+// Reverse method
 // Javascript already has the reverse method set up which is just
 //          array.reverse();
 
 console.log("This is the array in reverse order " + arr.reverse());
 
-// ******************** Sort method *********************
+// Sort method
 // Javascript already has the sort method set up which is just
 //          array.sort();
 
 console.log("This is the array in the sorted order " + arr.sort());
 
-// ******************** Timing the method ***************
+// Timing the method 
 // Times how long the method takes to run
 function someFunction() {
   arr.sort()
