@@ -75,7 +75,7 @@ The graph for the shuffle method:
 
 ### Last method
 
-As there is no .last in javascript, I used the following code:
+As there is no .last in javascript, so I used the following code:
 
         function last(newArray) {
 
@@ -144,6 +144,8 @@ The challenge is now to build our own algorithms for the following functions:
 |`[10,3,1,7]`|`17`| should return `false` (because 10 and 7 are not next to each other) |
 
 
+
+
 ### Find Duplicates
 
 Given a list of words, find all words that appear more than once.
@@ -163,7 +165,7 @@ I also ran the same process on a duplicate method which had been recommended onl
 
 The following chart is of a small sample array of 25 numbers, all ranging between 1-9.
 
-![Small sample](https://user-images.githubusercontent.com/37640287/49450561-2a070d00-f7d5-11e8-85a1-e2cb76f8c91b.png)
+![Small sample](https://user-images.githubusercontent.com/37640287/49452605-68063000-f7d9-11e8-8243-595d30e951e8.png)
 
 
 The difference between the two methods is very clear once dealing with larger arrays.  
