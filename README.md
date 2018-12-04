@@ -6,13 +6,26 @@ By the end of this week, the goal is to be able to answer "yes" to these questio
 - Can you mention efficiency as one of the dimension of a good piece of code
 - Can you join a conversation about algorithms and their complexity?
 
-Timing code
+### Timing code
 We were given 4 methods in ruby and asked to time how long each method took to complete its function on different sized array. We were allowed to pick any programming language we wanted to complete the challenge in. The methods were:
 
 - last
 - reverse
 - shuffle
 - sort (if you are generating an array from a range, don't forget to shuffle it first to not bias the results)
+
+To time each of the functions I used the following code:
+
+        function someFunction() {
+          This is where the code will be placed which needs to be timed.
+        };
+
+        console.time('someFunction');
+
+            someFunction(); // Whatever is timed goes between the two "console.time"
+
+        console.timeEnd('someFunction');
+
 
 I chose to work in javascript and althought there are ways to perform a shuffle, there is no .shuffle method already setup like there is in ruby. I used the following function to perform a shuffle on the arrays before the timer was set:
 
