@@ -2,7 +2,7 @@
 
 var arr = [];
 
-for (var i = 1; i <= 500000; i++) {
+for (var i = 1; i <= 100000; i++) {
    arr.push(i);
 };
 
@@ -33,7 +33,7 @@ function last(newArray) {
 
 };
 
-// Timing the method 
+// Timing the method
 // Times how long the method takes to run
 function someFunction() {
   last(arr)

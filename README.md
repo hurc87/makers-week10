@@ -54,23 +54,15 @@ This method replaced the original array with the newly shuffled version.
 
 I set up a quick sample of an array with 10 numbers in and timed each method 5 times, the results are below:
 
-![Small table map](https://user-images.githubusercontent.com/37640287/49434107-586ff280-f7ab-11e8-80b7-ee9f37b99884.png)
+![Small table map](https://user-images.githubusercontent.com/37640287/49507959-7a37ab00-f879-11e8-8c19-215f79428c5d.png)
 
-
-### Comparing the results
-
-Once I was happy each of the methods and timer was working I ran each method on different sized arrays, running each one 10 times, then taking the total to put on the final graph. The graph had a very wide range of times, this caused methods like .last and .reverse to not really show as the methods like .sort and .shuffle time range was quite a bit higher. Because of this I have included the table of results rather than the graph. However the individual graph of results are below for each method.
-
-### The final table of averages:
-
-![Total table map](https://user-images.githubusercontent.com/37640287/49387674-5b6ed280-f71a-11e8-806f-16e18138ea9b.png)
 
 
 ### Shuffle method
 
 The graph for the shuffle method:
 
-![Shuffle method Chart](https://user-images.githubusercontent.com/37640287/49387935-e8199080-f71a-11e8-8daa-02874a7d248a.png)
+![Shuffle method Chart](https://user-images.githubusercontent.com/37640287/49507719-f41b6480-f878-11e8-8f37-eb77221743ea.png)
 
 
 ### Last method
@@ -87,21 +79,21 @@ As there is no .last in javascript, so I used the following code:
 
 The graph for the last method:
 
-![Last method Chart](https://user-images.githubusercontent.com/37640287/49388023-0aaba980-f71b-11e8-9845-363251038973.png)
+![Last method Chart](https://user-images.githubusercontent.com/37640287/49507790-18774100-f879-11e8-9990-3b5f12baee7c.png)
 
 
 ### Reverse method
 
 The graph for the reverse method:
 
-![Reverse method Chart](https://user-images.githubusercontent.com/37640287/49387989-fbc4f700-f71a-11e8-9dd8-367b5824298f.png)
+![Reverse method Chart](https://user-images.githubusercontent.com/37640287/49507764-05fd0780-f879-11e8-82b4-a9b26e66dcb1.png)
 
 
 ### Sort method
 
 The graph for the sort method:
 
-![Sort method Chart](https://user-images.githubusercontent.com/37640287/49387889-d3d59380-f71a-11e8-97b5-2dced969188d.png)
+![Sort method Chart](https://user-images.githubusercontent.com/37640287/49507662-da7a1d00-f878-11e8-95be-e4f2a25ba505.png)
 
 
 
@@ -159,18 +151,15 @@ Todays workshop was around the steps needed to create an algorithm, these steps 
 - Otherwise, think about each step separately, and repeat 3 to 6.
 - Once everything is translated to code, run your testcases.
 
-I have copied the process into duplicate.js , where my duplicate method is. I ran the method on sample arrays to ensure the output was what I had expected. Once satisfied I timed the function on larger sized arrays, all of which had a mixture of randomly selected numbers between a range of 1 and 99.
+I have copied the process into duplicate.js , where my duplicate method is. I ran the method on sample arrays to ensure the output was what I had expected. Once satisfied I timed the function on larger sized arrays. At first I made the arrays have a random mixture of numbers between 1 and 100, however I was advised to change this to an array with no duplicates as this would mean the function would run for a longer period of time.  
 
 I also ran the same process on a duplicate method which had been recommended online. The function can be found in duplicate2.js . The results are below:
 
-The following chart is of a small sample array of 25 numbers, all ranging between 1-9.
+The following graph shows my results compared to the results for the secind method:
 
-![Small sample](https://user-images.githubusercontent.com/37640287/49452605-68063000-f7d9-11e8-8243-595d30e951e8.png)
-
-
-The difference between the two methods is very clear once dealing with larger arrays.  
-
-![Chart comparing the two methods](https://user-images.githubusercontent.com/37640287/49450586-3e4b0a00-f7d5-11e8-905a-d2c16e768cec.png)
+![Duplciate method line graph](https://user-images.githubusercontent.com/37640287/49520999-59348180-f89c-11e8-86a4-61347b768102.png)
 
 
-My method took a considerable amount longer to run through its function due to the amount of steps and loops it was asked to perform. Plus the code is very messy and not dry , however it is a starting point and something that can be worked on.
+There is a massive difference in the time my function took to run compared to the second version. Due to the huge difference in time the second line looks like it has not moved at all! Below is the results for arrays up to 25000 items.
+
+![Duplcate method small line graph](https://user-images.githubusercontent.com/37640287/49521027-66ea0700-f89c-11e8-9b8e-6e4a301bbbfc.png)
