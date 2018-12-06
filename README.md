@@ -104,23 +104,16 @@ The challenge is now to build our own algorithms for the following functions:
 - Shuffling
   Implement your own algorithm for shuffling (you cannot use .shuffle).
 
-- Reversing
-  Implement your own algorithm for reversing an array (you cannot use .reverse).
-
 - Mechacoach Pairing
   Given a list of students names, create all possible pairings.
-
-- Find Duplicates
-  Given a list of words, find all words that appear more than once.
 
 -  Most frequent words
   Given a text, find which are the ten most common words.
 
-- Sorting 0s and 1s
-  Given an array containing only 0s and 1s, sort it.
-
 - Sorting
   Implement your own algorithm for sorting an array (you cannot use .sort).
+
+- Two different sorting algorithms (one of the quadratic and one of the divide and conquers
 
 - Sub-sequence sum
   Given an array of integers and a target number, find if there exist a sequence of numbers that sum up to the target.
@@ -163,3 +156,16 @@ The following graph shows my results compared to the results for the secind meth
 There is a massive difference in the time my function took to run compared to the second version. Due to the huge difference in time the second line looks like it has not moved at all! Below is the results for arrays up to 25000 items.
 
 ![Duplcate method small line graph](https://user-images.githubusercontent.com/37640287/49521027-66ea0700-f89c-11e8-9b8e-6e4a301bbbfc.png)
+
+
+### Reversing
+
+Implement your own algorithm for reversing an array (you cannot use .reverse).
+
+![Reverse DIY version vs the .reverse](https://user-images.githubusercontent.com/37640287/49525777-62c2e700-f8a6-11e8-8aea-8d2d1401bc29.png)
+
+### Sorting 0s and 1s
+
+Given an array containing only 0s and 1s, sort it.
+
+![Sorting 0s and 1s vs sort()](https://user-images.githubusercontent.com/37640287/49591239-cc55fa80-f965-11e8-9f88-ce3a2cbe98ef.png)
