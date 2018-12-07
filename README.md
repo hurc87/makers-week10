@@ -140,22 +140,63 @@ Implement your own algorithm for reversing an array (you cannot use .reverse).
 
 ### Sorting 0s and 1s
 
-Given an array containing only 0s and 1s, sort it.
+Given an array containing only 0s and 1s, sort it (without using .sort).
 
 ![Sorting 0s and 1s vs sort()](https://user-images.githubusercontent.com/37640287/49591239-cc55fa80-f965-11e8-9f88-ce3a2cbe98ef.png)
 
 
 
-### Two different sorting algorithms (one of the quadratic and one of the divide and conquers
+### Build a divide and conquer method to sort an array
 
-Divide and conquer :
+Divide-and-conquer, breaks a problem into subproblems that are similar to the original problem, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem.
+We worked in pairs as part of this workshop to create a way to break the challenge down into smaller challenges in order to sort the whole array. With our version we break the array into sections starting with the 0 index of the array. Once each pair has been sorted we move on to step two. In step two we do the same but this time we start with the 1 index of the array.
+
+This continues throughout the array swapping between array index 0 and array index one as the starting point for the pairing. This process is repeated for a set amount of times, the times needed to ensure the array is fully sorted is half the length of the array. So if the array has a length of 8 items, step one would need to be completed 4 times and step two would need to be completed 8 times also. Odd numbers would need to be rounds up, so if the array has 9 items in it, we would repeat each step 5 times.   
+
+eg.
+
+Our test array is :
+    testArray = [6, 5, 4, 3, 2, 1]
+
+In round one step 1 we would swap array[0] which is 6 with array[1] which is 5, array[2] which is 4 would be swapped with array[3] which is 3 and array[4] the number 2 would be swapped with array[5] number 1. So after round 1, step 1 the array would now be:
+
+    testArray = [5, 6, 3, 4, 1, 2]
+
+Step two would be swapping array[1] (number 6) with array[2] (number 3), we would also swap array[3] (number 4) with array[4] (number 1). So our array is now:
+
+    testArray = [5, 3, 6, 1, 4, 2]
+
+As the array has a length of 6, we would complete 3 rounds.
+So round two would look like this:
+
+Round 2 step 1
+    testArray = [3, 5, 1, 6, 2, 4]
+
+Round 2 step 2
+    testArray = [3, 1, 5, 2, 6, 4]
+
+Round 3 step 1
+    testArray = [1, 3, 2, 5, 4, 6]
+
+Round 3 step 2
+    testArray = [1, 2, 3, 4, 5, 6]
+
+Below is a graph comparing this version of a sort method with the original sort().
 
 ![Divide and conquer vs sort](https://user-images.githubusercontent.com/37640287/49662957-1e218200-fa45-11e8-87ea-6f2bbc552af5.png)
 
 
 
+The following graph is a closer look at the DIY version.
+
 ![Divide and conquer ](https://user-images.githubusercontent.com/37640287/49663014-427d5e80-fa45-11e8-9a35-1acfeaf6c2b5.png)
 
 
 
+The graph below is a closer look at original sort().
+
 ![sort](https://user-images.githubusercontent.com/37640287/49662993-372a3300-fa45-11e8-9b05-ac89c58c1de8.png)
+
+
+
+As with most of other methods I have rebuilt, my methods give a quadratic line on the graph, whereas the original versions mainly give a linear line. 
