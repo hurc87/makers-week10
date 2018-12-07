@@ -1,9 +1,8 @@
-// var testArray = [ 6, 5, 4, 3, 2, 1, 7, 8, 9];
+// To fill the array before a test
+var arr = [];
 
-var testArray = [];
-
-for (var i = 1; i <= 100; i++) {
-   testArray.push(i);
+for (var i = 1; i <= 50000; i++) {
+   arr.push(i);
 };
 
 // Shuffle method
@@ -21,11 +20,9 @@ function shuffle(array) {
 
 };
 
-console.log(testArray);
+shuffle(arr);
 
-shuffle(testArray);
-
-console.log(testArray);
+// Sorting method
 
 function diySort(array){
 
@@ -61,9 +58,18 @@ function diySort(array){
   for(var i=0; i < runProgram; i++){
     bothSteps();
   };
-  console.log(runProgram);
 
   return array;
 };
 
-console.log(diySort(testArray));
+// Timing the method
+// Times how long the method takes to run
+function someFunction() {
+  diySort(arr)
+};
+
+console.time('someFunction');
+
+someFunction(); // Whatever is timed goes between the two "console.time"
+
+console.timeEnd('someFunction');
