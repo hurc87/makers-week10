@@ -167,7 +167,7 @@ Step two would be swapping array[1] (number 6) with array[2] (number 3), we woul
     testArray = [5, 3, 6, 1, 4, 2]
 
 As the array has a length of 6, we would complete 3 rounds.
-So round two would look like this:
+So round two and three would look like this:
 
     Round 2 step 1
     testArray = [3, 5, 1, 6, 2, 4]
