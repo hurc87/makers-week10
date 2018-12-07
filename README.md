@@ -155,7 +155,7 @@ This continues throughout the array swapping between array index 0 and array ind
 
 eg.
 
-Our test array is :
+    Our test array is :
     testArray = [6, 5, 4, 3, 2, 1]
 
 In round one step 1 we would swap array[0] which is 6 with array[1] which is 5, array[2] which is 4 would be swapped with array[3] which is 3 and array[4] the number 2 would be swapped with array[5] number 1. So after round 1, step 1 the array would now be:
@@ -169,16 +169,16 @@ Step two would be swapping array[1] (number 6) with array[2] (number 3), we woul
 As the array has a length of 6, we would complete 3 rounds.
 So round two would look like this:
 
-Round 2 step 1
+    Round 2 step 1
     testArray = [3, 5, 1, 6, 2, 4]
 
-Round 2 step 2
+    Round 2 step 2
     testArray = [3, 1, 5, 2, 6, 4]
 
-Round 3 step 1
+    Round 3 step 1
     testArray = [1, 3, 2, 5, 4, 6]
 
-Round 3 step 2
+    Round 3 step 2
     testArray = [1, 2, 3, 4, 5, 6]
 
 Below is a graph comparing this version of a sort method with the original sort().
@@ -199,4 +199,4 @@ The graph below is a closer look at original sort().
 
 
 
-As with most of other methods I have rebuilt, my methods give a quadratic line on the graph, whereas the original versions mainly give a linear line. 
+As with most of other methods I have rebuilt, my methods give a quadratic line on the graph, whereas the original versions mainly give a linear line.
